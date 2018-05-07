@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Aula0705_Console
 {
@@ -10,6 +6,19 @@ namespace Aula0705_Console
     {
         static void Main(string[] args)
         {
+            int i = 10;
+
+            Console.WriteLine("Hello World");
+           
+            Console.WriteLine("i:", + i);
+            
+
+            if (Console.CapsLock)
+                Console.WriteLine("CapsLock Ativado");
+            else
+                Console.WriteLine("Capslock Desativado");
+
+            Console.ReadKey();
         }
     }
 }
