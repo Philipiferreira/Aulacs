@@ -25,5 +25,29 @@ namespace Aula1005_POO
         }
 
         public string Cpf { get; set} // criar como propridade nao precisa dar get set pois ele faz a variavel sozinho
+
+        //construtor
+        // construtor vazio
+        public cliente ()  {
+
+
+        } 
+        public cliente (string nome)
+        {
+            Nome = nome;
+        }
+
+        public cliente (string nome , string cpf)
+        {
+
+            Nome = nome;
+            Cpf = cpf;
+        }
+
+
     }
+
+
+
+
 }
