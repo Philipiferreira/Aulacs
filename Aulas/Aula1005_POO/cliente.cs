@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula1005_POO
 {
-    class Program
+    class cliente
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
