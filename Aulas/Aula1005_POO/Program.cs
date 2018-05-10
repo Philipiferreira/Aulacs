@@ -25,7 +25,21 @@ namespace Aula1005_POO
 
             //utilizando os contrutores parametrizados.
            cliente  cli2 = new cliente("Jucicreia"); // nome
-           cliente cli3 = new cliente("Juciliuda" , "123"); // nome, cpf
+
+            Console.WriteLine("cli2.nome:" + cli.Nome);
+
+            cliente cli3 = new cliente("Juciliuda" , "123"); // nome, cpf
+            cli.DataNasc = new DateTime(1950, 05, 05);
+
+
+            Console.WriteLine(
+                cli3.Nome + "Nasceu em" + cli.DataNasc);
+          
+
+
+            //Pessoa P = new Pessoa(); Erro Classe
+            //Classes asbtradas n podem ser istanciadas 
+
 
 
             Console.ReadKey();

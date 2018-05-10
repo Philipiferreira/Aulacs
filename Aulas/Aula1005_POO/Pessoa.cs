@@ -24,8 +24,7 @@ namespace Aula1005_POO
                 nome = value;
             }
         }
-
-        public string Cpf { get; set} // criar como propridade nao precisa dar get set pois ele faz a variavel sozinho
+       public string Cpf { get; set; } // criar como propridade nao precisa dar get set pois ele faz a variavel sozinho
 
 
         //construtor
@@ -46,7 +45,7 @@ namespace Aula1005_POO
             Nome = nome;
             Cpf = cpf;
         }
-
+    
 
     }
 }
