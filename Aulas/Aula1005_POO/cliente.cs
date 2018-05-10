@@ -10,8 +10,29 @@ namespace Aula1005_POO
 
     {
 
-        public DateTime DataNasc { get; set;}
+        public DateTime DataNasc { get; set; }
 
+       
+        public string DataqueNasceu
+        {
+            get
+            {
+                return DataNasc.ToShortDateString();
+            }
+        }
+
+
+        public int Idade
+        {
+   
+            get
+            {
+               return DateTime.Now.Year - DataNasc.Year;
+
+            }
+        }
+
+        
         public cliente()
         {
 

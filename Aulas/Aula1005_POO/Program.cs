@@ -34,6 +34,9 @@ namespace Aula1005_POO
 
             Console.WriteLine(
                 cli3.Nome + "Nasceu em" + cli.DataNasc);
+
+            Console.WriteLine(
+                cli3.Nome + "Tem  "+cli.Idade);
           
 
 
