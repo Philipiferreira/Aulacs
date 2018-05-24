@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Modelos
 {
-    public class Class1
-    {
-    }
+	class Categoria
+	{
+
+
+		public int CategoriaID { get; set; }
+
+
+		public string Nome { get; set; }
+
+
+		public bool Ativo { get; set; }
+	}
 }
