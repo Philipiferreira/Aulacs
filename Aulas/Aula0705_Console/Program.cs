@@ -17,7 +17,7 @@ namespace Aula0705_Console
             else
                 Console.WriteLine("CapsLock desativado");
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
